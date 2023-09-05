@@ -27,8 +27,8 @@ public class Radio {
             currentVolume++;
         } else {
             currentVolume = 100;
+        }
     }
-}
 
     public void decreaseVolume() {
         if (currentVolume != 0) {
@@ -37,6 +37,7 @@ public class Radio {
             currentVolume = 0;
         }
     }
+
     public int getCurrentStation() {
         return currentStation;
     }

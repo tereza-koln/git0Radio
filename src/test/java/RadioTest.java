@@ -3,6 +3,19 @@ import org.junit.jupiter.api.Test;
 
 public class RadioTest {
 
+
+    @Test
+
+    public void testCount() {
+        Radio radio = new Radio(10);
+
+        radio.setCurrentStation(5);
+
+        int actual = radio.getCurrentStation();
+        int expected = 5;
+        Assertions.assertEquals(expected, actual);
+    }
+
     @Test
 
     public void test() {

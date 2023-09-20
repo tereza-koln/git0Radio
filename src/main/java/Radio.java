@@ -18,7 +18,7 @@ public class Radio {
             currentStation++;
             return;
         }
-        currentStation = 0;
+        currentStation = 1;
 
     }
 
